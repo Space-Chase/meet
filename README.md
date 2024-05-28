@@ -91,3 +91,10 @@
     Given the user is on the events dashboard
     When the user views the event statistics
     Then a chart is displayed showing the number of upcoming events in each city
+
+
+
+
+# Serverless functions
+
+In the Meet app, serverless functions will handle authorization for accessing public Google Calendar events. Serverless functions will allow users need authorization to fetch event data to access this React app. Serverless functions provide access tokens securely and are more efficient than running a full server. AWS Lambda will be used for these serverless functions, making the app scalable and cost-effective.
